@@ -1,0 +1,20 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Godot
+.export/
+.import/
+.sconsign.dblite
+*.log
+
+# Compiled objects
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+
+# SCons cache
+.sconsign*

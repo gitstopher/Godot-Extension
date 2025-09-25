@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=3 uid="uid://7pxrkm8karbr"]
+
+[ext_resource type="Texture2D" uid="uid://bujfqfld2jmio" path="res://icon.svg" id="1_ke4q7"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="GDExample" type="GDExample" parent="."]
+movement_radius = 140.0
+scale_speed = 3.2
+label_path = NodePath("../Label")
+button_path = NodePath("../Button")
+position = Vector2(20.2504, 232.407)
+scale = Vector2(0.929248, 0.929248)
+texture = ExtResource("1_ke4q7")
+
+[node name="Label" type="Label" parent="."]
+custom_minimum_size = Vector2(50, 50)
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 304.0
+offset_top = 1.0
+offset_right = 354.0
+offset_bottom = 51.0
+grow_horizontal = 2
+
+[node name="Button" type="Button" parent="."]
+custom_minimum_size = Vector2(100, 100)
+offset_right = 8.0
+offset_bottom = 8.0

@@ -2,3 +2,6 @@
 	path = godot-cpp
 	url = https://github.com/godotengine/godot-cpp
 	branch = 4.4
+[submodule "godot-headers"]
+	path = godot-headers
+	url = https://github.com/godotengine/godot-headers
